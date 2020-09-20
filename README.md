@@ -112,7 +112,7 @@ https://gist.github.com/danidiaz/37a69305e2ed3319bfff9631175c5d0f
 
 * Hello > "Hello" [ `ysaw"` ]
 * "Hello World" > 'Hello World' [ `cs"'` ]
-* 'Hello World' > <p>Hello World</p> [ `cs'<p>` ]
-* <p>Hello World</p> > [ `dst` ]
+* 'Hello World' > `<p>Hello World</p>` [ `cs'<p>` ]
+* `<p>Hello World</p>` > [ `dst` ]
 
 *Note : The dot command (repeat last command) does not seem to work with the surround commands.*
