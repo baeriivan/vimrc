@@ -33,7 +33,7 @@ Search pattern (for `/` and `?`)
 * `n/N` Next/previous match
 * `*/#` Next/previous whole world under cursor
 
-* % Jump to matching {[(
+* `%` Jump to matching {[(
 
 * `C-d` Half-page down
 * `C-u` Half-page up
@@ -110,9 +110,9 @@ https://gist.github.com/danidiaz/37a69305e2ed3319bfff9631175c5d0f
 
 ## surround.vim
 
-Hello > "Hello" [ ysaw" ]
-"Hello World" > 'Hello World' [ `cs"'` ]
-'Hello World' > <p>Hello World</p> [ `cs'<p>` ]
-<p>Hello World</p> > [ `dst` ]
+* Hello > "Hello" [ `ysaw"` ]
+* "Hello World" > 'Hello World' [ `cs"'` ]
+* 'Hello World' > <p>Hello World</p> [ `cs'<p>` ]
+* <p>Hello World</p> > [ `dst` ]
 
-*Note : The dot command (repeat last command) does not seem to work with the surround commands.
+*Note : The dot command (repeat last command) does not seem to work with the surround commands.*
