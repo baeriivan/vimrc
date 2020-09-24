@@ -5,6 +5,7 @@ My vimrc, and its cheatsheet. Basic commands are likely in the end of their resp
 
 Plugins used:
 * surround.vim : https://github.com/tpope/vim-surround
+* repeat.vim : https://github.com/tpope/vim-repeat
 
 _Note: To use it, do not forget to rename vimrc to .vimrc, obviously._
 
@@ -115,4 +116,6 @@ https://gist.github.com/danidiaz/37a69305e2ed3319bfff9631175c5d0f
 * 'Hello World' > `<p>Hello World</p>` [ `cs'<p>` ]
 * `<p>Hello World</p>` > [ `dst` ]
 
-*Note : The dot command (repeat last command) does not seem to work with the surround commands.*
+## repeat.vim
+
+Allow the dot command for surround.vim (as well as other plugins from tpope that I do not use).
