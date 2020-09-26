@@ -34,11 +34,18 @@ set smartindent
 "Does not unwrap if line are too long
 "set nowrap
 
-set noswapfile
-set nobackup
+"set noswapfile
+"set nobackup
 
 "Show search result on the fly
 set incsearch
+
+set hlsearch
+"set noh "to toggle off current highlight
+
+"similar autocomplete menu to zsh
+set wildmenu
+set wildmode=longest,full
 
 set clipboard=unnamedplus
 
@@ -46,3 +53,7 @@ set path+=**
 
 "Splits open at the bottom and right of selected windows (which makes more sense !)
 set splitbelow splitright
+
+
+"Bind '?' to show help in netrw
+autocmd FileType netrw nnoremap ? :help netrw-quickmap<CR>
